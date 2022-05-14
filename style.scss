@@ -1,0 +1,575 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+$bg-color2:#1F2128FF;
+$bg-color: #292E3CFF;
+@mixin  box-shadov {
+  box-shadow: rgb(42, 51, 219) 0px 3px 8px, 
+  rgba(53, 53, 193, 0.856) 0px 3px 18px,
+   rgba(39, 176, 255, 0.836) 0px 3px 28px, 
+   rgba(71, 49, 214, 0.801) 0px 3px 38px,
+    rgb(43, 80, 211) 0px 3px 48px, 
+    rgb(26, 98, 213) 0px 3px 58px, 
+    rgba(53, 53, 197, 0.808) 0px 3px 68px, 
+    rgba(21, 87, 218, 0.637) 0px 3px 78px;
+}
+header {
+    .menu-navbar {
+
+        position: fixed;
+        width: 100%;
+        top: 0;
+        left: 0;
+        z-index: 1000;
+        background-color: rgba(44, 47, 49, 0.499);
+
+
+        .button {
+            button {
+                padding: 10px 20px;
+                border-radius: 3px;
+                background-color: rgb(43, 110, 226);
+                color: white;
+                border: none;
+            }
+        }
+
+        .menu1 {
+            .nav-item {
+                a {
+                    color: white !important;
+                    font-size: 18px;
+                    text-transform: uppercase;
+                    font-weight: 600;
+                    margin-right: 15px;
+                }
+            }
+        }
+
+    }
+}
+
+#one {
+    background-color: $bg-color;
+
+    .banner {
+        color: white;
+     
+        h1 {
+            font-size: 45px;
+            font-weight: 600;
+            margin: 10px 0;
+        }
+
+        .bannerp1 {
+            font-size: 14px;
+            color: blue;
+            font-weight: 600;
+        }
+
+        button {
+            border: none;
+          border-radius: 3px;
+         margin-top: 5px;
+            .btnend1 {
+                padding: 7px 20px;
+                display: flex;
+                border-radius: 3px;
+                background-color: white;
+               
+                p {
+                    font-weight: 700;
+                    margin: 0 4px;
+                }
+            }
+            .btnend2 {
+                background-color: black;
+                color: white;
+                padding: 7px 20px;
+                display: flex;
+                border-radius: 3px;
+                border: 1px solid white;
+              
+                p {
+                    font-weight: 700;
+                    margin: 0 5px;
+                }
+            }
+          
+        }
+    }
+}
+#two {
+background-color: $bg-color2;
+color: white;
+padding: 10px;
+.twop1 {
+    font-size: 20px;
+    font-weight: 600;
+}
+.box3 {
+    padding: 20px;
+    background-color: $bg-color;
+  
+}
+.box2 {
+   padding: 10px; 
+ 
+   .images1 {
+       background-color: rgb(0, 72, 255);
+       padding: 20px;
+       border-radius: 10px;
+   }
+   .images2 {
+       background-color: rgb(255, 51, 0);
+    padding: 18px;
+    border-radius: 10px;
+   }
+   .images3 {
+       background-color: yellowgreen;
+    padding: 20px;
+    border-radius: 10px;
+   }
+   .images4 {
+       background-color: blueviolet;
+    padding: 20px;
+    border-radius: 10px;
+   }
+}
+}
+#three {
+    background-color: $bg-color;
+    .box4 {
+        display: flex;
+        padding: 10px;
+      color: blue;
+      text-align: center;
+      p {
+          font-weight: 600;
+      }
+        i {
+          background-color: blue; 
+          color: white; 
+     padding: 10px;
+        border-radius:48%;
+        text-align: center;
+        margin: 0 5px;
+        }
+    }
+    .box5 {
+        display: flex;
+        padding: 10px; 
+        
+        p{
+color: white;
+font-weight: 600;
+        }
+        i {
+            background-color: gray;
+            padding: 10px;
+            border-radius:48%;
+            margin: 0 5px;
+        }
+    }
+    .box6 {
+        padding: 10px;
+        .features1 {
+            width: 100%;
+        }
+    }
+    .box7 {
+        color: white;
+        padding: 10px;
+        margin: 10px;
+        .box7p {
+            color: blue;
+            font-weight: 600;
+        }
+        h1 {
+            font-weight: 800;
+        }
+        button {
+            text-align: center; 
+            background-color: blue;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            transition: .5s;
+            &:hover {
+                @include box-shadov()
+            }
+        }
+         .box7btn {
+            padding: 0 10px;
+           
+            p {
+                padding-top: 7px;
+              padding-left: 20px;
+              padding-right: 20px;
+              
+            }
+        }
+    }
+    .box8 {
+        color: white;
+        padding: 10px;
+        
+        .box8p {
+            color: blue;
+        }
+        h1 {
+            font-weight: 700;
+        }
+      
+    }
+    .box9 {
+        display: flex;
+      .img {
+         
+          width: 15%;
+      }
+      span {
+          font-weight: 600;
+          font-size: 20px;
+          padding-bottom: 5px;
+      }
+   
+      
+    
+    }
+    .btn3 {
+        button {
+            padding-top: 8px;
+           background-color: $bg-color;
+            padding-left: 25px;
+            padding-right: 25px;
+            border-radius: 5px;
+            color: white;
+            border: 1px solid white;
+            transition: .5s;
+            &:hover {
+                background-color: blue;
+                @include box-shadov()
+            }
+        }
+    }
+    .traffic {
+        width: 100%;
+    }
+}
+
+
+#four {
+    color: white;
+    background-image: url(./img/testimonial-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+    .user {
+        width: 80px;
+        margin: 10px;
+    }
+    p {
+        color: grey;
+    }
+    .star {
+        color: rgb(255, 196, 0);
+        font-size: 25px;
+    }
+    .box-1 {
+        margin: 20px;
+        padding: 10px;
+    }
+}
+
+#five {
+    h1 {
+        font-weight: 800;
+    }
+    background-color: $bg-color;
+    color: white;
+    .team {
+        width: 100%;
+    }
+    .box-2p {
+        font-size: 20px;
+        font-weight: 600;
+        margin-top: 12px;
+    }
+    .box-2 {
+        margin: 5px;
+    }
+    .box-2btn {
+        margin: 10px;
+        button {
+  border: 1px solid white;
+  background-color: $bg-color;
+        }
+        p {
+          padding-top: 9px;
+          padding-right: 20px;
+          padding-left: 20px;
+          color: white;
+        }
+    }
+}
+#seven {
+    background-color: $bg-color2;
+    color: white;
+    font-weight: 600;
+    padding: 20px 5px;
+  .box-3 {
+      display: flex;
+      padding: 10px;
+      p{
+          margin: 5px;
+      }
+      .box-3p {
+color: gray;
+      }
+  }
+ .box-4 {
+     margin: 5px;
+     padding-left: 30px;
+     padding-top: 20px;
+     padding-bottom: 20px;
+     background-color: $bg-color;
+    .box-5 {
+        display: flex;
+    padding: 10px 0;
+    } 
+    img {
+        width: 8%;
+        padding: 7px;
+    }
+    span {
+        font-size: 30px;
+        font-weight: 600;
+    }
+  .btn5 {
+  
+        margin: 10px;
+        button {
+  border: 1px solid white;
+  background-color: $bg-color;
+        }
+        p {
+            font-weight: 600;
+          padding-top: 9px;
+          padding-right: 20px;
+          padding-left: 20px;
+          color: white;
+        }
+   
+  }
+ }
+ .box-4_1 {
+     height: 420px;
+    margin: 5px;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: $bg-color;
+   .box-5 {
+       display: flex;
+   padding: 5px 0;
+   } 
+   img {
+       width: 8%;
+       padding: 7px;
+   }
+   span {
+       font-size: 30px;
+       font-weight: 600;
+   }
+ .btn5 {
+ 
+       margin: 10px;
+       button {
+ border: 1px solid white;
+ background-color: red;
+       }
+       p {
+           font-weight: 600;
+         padding-top: 9px;
+         padding-right: 20px;
+         padding-left: 20px;
+         color: white;
+       }
+  
+ }
+ }
+ .box-4_2 {
+     height: 450px;
+    margin: 5px;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: $bg-color;
+   .box-5 {
+       display: flex;
+   padding: 5px 0;
+   } 
+   img {
+       width: 8%;
+       padding: 7px;
+   }
+   span {
+       font-size: 30px;
+       font-weight: 600;
+   }
+ .btn5 {
+ 
+       margin: 10px;
+       button {
+ border: 1px solid white;
+ background-color: $bg-color;
+       }
+       p {
+           font-weight: 600;
+         padding-top: 9px;
+         padding-right: 20px;
+         padding-left: 20px;
+         color: white;
+       }
+  
+ }
+ }
+ .box-6 {
+     background-color: $bg-color;
+     padding: 10px;
+     margin: 10px 0;
+ }
+ .box-8 {
+     padding: 15px;
+     margin: 14px 0;
+     background-color: $bg-color;
+ }
+ .box-6p {
+     font-size: 24px;
+ }
+ .seven_p {
+     text-align: center;
+     color: gray;
+     span {
+         color:  blue;
+     }
+ }
+}
+
+#eight {
+    color: white;
+    background-color: $bg-color;
+    font-weight: 600;
+    padding: 10px;
+    .blog {
+        width: 100%;
+        margin-bottom: 15px;
+        margin-top: 10px;
+    }
+    .box-9 {
+        margin: 10px;
+    }
+    .project {
+       padding: 10px 20px;
+        margin-top: 10px;
+        width: 100%;
+    }
+    .box-11 {
+        font-weight: 700;
+        background-image: url(./img/project-bg.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        h1 {
+        font-size: 45px;
+        margin-bottom: 10px;
+        }
+        button {
+           padding: 10px 30px;
+           border-radius: 5px;
+           color: white;
+           background-color: black;
+           border: none;
+           cursor: pointer;
+         p {
+             margin:0;
+
+         }
+           
+        }
+    }
+  .box_1 {
+      padding: 10px 20px;
+  }
+  input {
+      padding: 10px 20px;
+      border-radius: 5px;
+      border: none;
+  }
+
+
+}
+
+#nine {
+    background-color: $bg-color2;
+    color: white;
+    font-weight: 600;
+   .icon {
+    i {
+        padding: 10px;
+        background-color: white;
+        color: black;
+        border-radius: 4px;
+    }
+   }
+    img {
+        margin: 10px 0;
+    }
+   .nine {
+       font-size: 20px;
+   }
+   .box_6 {
+       margin-top: 10px;
+       display: flex;
+       padding: 10px 0;
+
+       i {
+         color: blue;
+           margin: 10px;
+
+       }
+   }
+  button {
+      border: none;
+    border-radius: 3px;
+    margin-top: 5px;
+      .btnend1 {
+          padding: 7px 20px;
+          display: flex;
+          border-radius: 3px;
+          background-color: white;
+          p {
+              font-weight: 700;
+              margin: 0 4px;
+          }
+      }
+      .btnend2 {
+          background-color: black;
+          color: white;
+          padding: 7px 20px;
+          display: flex;
+          border-radius: 3px;
+          border: 1px solid white;
+          p {
+              margin: 0 5px;
+          }
+      }
+    
+  }
+  .pend {
+      margin-top: 10px;
+  }
+}

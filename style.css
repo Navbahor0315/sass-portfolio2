@@ -1,0 +1,518 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header .menu-navbar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  background-color: rgba(44, 47, 49, 0.499);
+}
+header .menu-navbar .button button {
+  padding: 10px 20px;
+  border-radius: 3px;
+  background-color: rgb(43, 110, 226);
+  color: white;
+  border: none;
+}
+header .menu-navbar .menu1 .nav-item a {
+  color: white !important;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-right: 15px;
+}
+
+#one {
+  background-color: #292e3c;
+}
+#one .banner {
+  color: white;
+}
+#one .banner h1 {
+  font-size: 45px;
+  font-weight: 600;
+  margin: 10px 0;
+}
+#one .banner .bannerp1 {
+  font-size: 14px;
+  color: blue;
+  font-weight: 600;
+}
+#one .banner button {
+  border: none;
+  border-radius: 3px;
+  margin-top: 5px;
+}
+#one .banner button .btnend1 {
+  padding: 7px 20px;
+  display: flex;
+  border-radius: 3px;
+  background-color: white;
+}
+#one .banner button .btnend1 p {
+  font-weight: 700;
+  margin: 0 4px;
+}
+#one .banner button .btnend2 {
+  background-color: black;
+  color: white;
+  padding: 7px 20px;
+  display: flex;
+  border-radius: 3px;
+  border: 1px solid white;
+}
+#one .banner button .btnend2 p {
+  font-weight: 700;
+  margin: 0 5px;
+}
+
+#two {
+  background-color: #1f2128;
+  color: white;
+  padding: 10px;
+}
+#two .twop1 {
+  font-size: 20px;
+  font-weight: 600;
+}
+#two .box3 {
+  padding: 20px;
+  background-color: #292e3c;
+}
+#two .box2 {
+  padding: 10px;
+}
+#two .box2 .images1 {
+  background-color: rgb(0, 72, 255);
+  padding: 20px;
+  border-radius: 10px;
+}
+#two .box2 .images2 {
+  background-color: rgb(255, 51, 0);
+  padding: 18px;
+  border-radius: 10px;
+}
+#two .box2 .images3 {
+  background-color: yellowgreen;
+  padding: 20px;
+  border-radius: 10px;
+}
+#two .box2 .images4 {
+  background-color: blueviolet;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+#three {
+  background-color: #292e3c;
+}
+#three .box4 {
+  display: flex;
+  padding: 10px;
+  color: blue;
+  text-align: center;
+}
+#three .box4 p {
+  font-weight: 600;
+}
+#three .box4 i {
+  background-color: blue;
+  color: white;
+  padding: 10px;
+  border-radius: 48%;
+  text-align: center;
+  margin: 0 5px;
+}
+#three .box5 {
+  display: flex;
+  padding: 10px;
+}
+#three .box5 p {
+  color: white;
+  font-weight: 600;
+}
+#three .box5 i {
+  background-color: gray;
+  padding: 10px;
+  border-radius: 48%;
+  margin: 0 5px;
+}
+#three .box6 {
+  padding: 10px;
+}
+#three .box6 .features1 {
+  width: 100%;
+}
+#three .box7 {
+  color: white;
+  padding: 10px;
+  margin: 10px;
+}
+#three .box7 .box7p {
+  color: blue;
+  font-weight: 600;
+}
+#three .box7 h1 {
+  font-weight: 800;
+}
+#three .box7 button {
+  text-align: center;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  transition: 0.5s;
+}
+#three .box7 button:hover {
+  box-shadow: rgb(42, 51, 219) 0px 3px 8px, rgba(53, 53, 193, 0.856) 0px 3px 18px, rgba(39, 176, 255, 0.836) 0px 3px 28px, rgba(71, 49, 214, 0.801) 0px 3px 38px, rgb(43, 80, 211) 0px 3px 48px, rgb(26, 98, 213) 0px 3px 58px, rgba(53, 53, 197, 0.808) 0px 3px 68px, rgba(21, 87, 218, 0.637) 0px 3px 78px;
+}
+#three .box7 .box7btn {
+  padding: 0 10px;
+}
+#three .box7 .box7btn p {
+  padding-top: 7px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+#three .box8 {
+  color: white;
+  padding: 10px;
+}
+#three .box8 .box8p {
+  color: blue;
+}
+#three .box8 h1 {
+  font-weight: 700;
+}
+#three .box9 {
+  display: flex;
+}
+#three .box9 .img {
+  width: 15%;
+}
+#three .box9 span {
+  font-weight: 600;
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+#three .btn3 button {
+  padding-top: 8px;
+  background-color: #292e3c;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-radius: 5px;
+  color: white;
+  border: 1px solid white;
+  transition: 0.5s;
+}
+#three .btn3 button:hover {
+  background-color: blue;
+  box-shadow: rgb(42, 51, 219) 0px 3px 8px, rgba(53, 53, 193, 0.856) 0px 3px 18px, rgba(39, 176, 255, 0.836) 0px 3px 28px, rgba(71, 49, 214, 0.801) 0px 3px 38px, rgb(43, 80, 211) 0px 3px 48px, rgb(26, 98, 213) 0px 3px 58px, rgba(53, 53, 197, 0.808) 0px 3px 68px, rgba(21, 87, 218, 0.637) 0px 3px 78px;
+}
+#three .traffic {
+  width: 100%;
+}
+
+#four {
+  color: white;
+  background-image: url(./img/testimonial-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#four .user {
+  width: 80px;
+  margin: 10px;
+}
+#four p {
+  color: grey;
+}
+#four .star {
+  color: rgb(255, 196, 0);
+  font-size: 25px;
+}
+#four .box-1 {
+  margin: 20px;
+  padding: 10px;
+}
+
+#five {
+  background-color: #292e3c;
+  color: white;
+}
+#five h1 {
+  font-weight: 800;
+}
+#five .team {
+  width: 100%;
+}
+#five .box-2p {
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 12px;
+}
+#five .box-2 {
+  margin: 5px;
+}
+#five .box-2btn {
+  margin: 10px;
+}
+#five .box-2btn button {
+  border: 1px solid white;
+  background-color: #292e3c;
+}
+#five .box-2btn p {
+  padding-top: 9px;
+  padding-right: 20px;
+  padding-left: 20px;
+  color: white;
+}
+
+#seven {
+  background-color: #1f2128;
+  color: white;
+  font-weight: 600;
+  padding: 20px 5px;
+}
+#seven .box-3 {
+  display: flex;
+  padding: 10px;
+}
+#seven .box-3 p {
+  margin: 5px;
+}
+#seven .box-3 .box-3p {
+  color: gray;
+}
+#seven .box-4 {
+  margin: 5px;
+  padding-left: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #292e3c;
+}
+#seven .box-4 .box-5 {
+  display: flex;
+  padding: 10px 0;
+}
+#seven .box-4 img {
+  width: 8%;
+  padding: 7px;
+}
+#seven .box-4 span {
+  font-size: 30px;
+  font-weight: 600;
+}
+#seven .box-4 .btn5 {
+  margin: 10px;
+}
+#seven .box-4 .btn5 button {
+  border: 1px solid white;
+  background-color: #292e3c;
+}
+#seven .box-4 .btn5 p {
+  font-weight: 600;
+  padding-top: 9px;
+  padding-right: 20px;
+  padding-left: 20px;
+  color: white;
+}
+#seven .box-4_1 {
+  height: 420px;
+  margin: 5px;
+  padding-left: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #292e3c;
+}
+#seven .box-4_1 .box-5 {
+  display: flex;
+  padding: 5px 0;
+}
+#seven .box-4_1 img {
+  width: 8%;
+  padding: 7px;
+}
+#seven .box-4_1 span {
+  font-size: 30px;
+  font-weight: 600;
+}
+#seven .box-4_1 .btn5 {
+  margin: 10px;
+}
+#seven .box-4_1 .btn5 button {
+  border: 1px solid white;
+  background-color: red;
+}
+#seven .box-4_1 .btn5 p {
+  font-weight: 600;
+  padding-top: 9px;
+  padding-right: 20px;
+  padding-left: 20px;
+  color: white;
+}
+#seven .box-4_2 {
+  height: 450px;
+  margin: 5px;
+  padding-left: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #292e3c;
+}
+#seven .box-4_2 .box-5 {
+  display: flex;
+  padding: 5px 0;
+}
+#seven .box-4_2 img {
+  width: 8%;
+  padding: 7px;
+}
+#seven .box-4_2 span {
+  font-size: 30px;
+  font-weight: 600;
+}
+#seven .box-4_2 .btn5 {
+  margin: 10px;
+}
+#seven .box-4_2 .btn5 button {
+  border: 1px solid white;
+  background-color: #292e3c;
+}
+#seven .box-4_2 .btn5 p {
+  font-weight: 600;
+  padding-top: 9px;
+  padding-right: 20px;
+  padding-left: 20px;
+  color: white;
+}
+#seven .box-6 {
+  background-color: #292e3c;
+  padding: 10px;
+  margin: 10px 0;
+}
+#seven .box-8 {
+  padding: 15px;
+  margin: 14px 0;
+  background-color: #292e3c;
+}
+#seven .box-6p {
+  font-size: 24px;
+}
+#seven .seven_p {
+  text-align: center;
+  color: gray;
+}
+#seven .seven_p span {
+  color: blue;
+}
+
+#eight {
+  color: white;
+  background-color: #292e3c;
+  font-weight: 600;
+  padding: 10px;
+}
+#eight .blog {
+  width: 100%;
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+#eight .box-9 {
+  margin: 10px;
+}
+#eight .project {
+  padding: 10px 20px;
+  margin-top: 10px;
+  width: 100%;
+}
+#eight .box-11 {
+  font-weight: 700;
+  background-image: url(./img/project-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#eight .box-11 h1 {
+  font-size: 45px;
+  margin-bottom: 10px;
+}
+#eight .box-11 button {
+  padding: 10px 30px;
+  border-radius: 5px;
+  color: white;
+  background-color: black;
+  border: none;
+  cursor: pointer;
+}
+#eight .box-11 button p {
+  margin: 0;
+}
+#eight .box_1 {
+  padding: 10px 20px;
+}
+#eight input {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+}
+
+#nine {
+  background-color: #1f2128;
+  color: white;
+  font-weight: 600;
+}
+#nine .icon i {
+  padding: 10px;
+  background-color: white;
+  color: black;
+  border-radius: 4px;
+}
+#nine img {
+  margin: 10px 0;
+}
+#nine .nine {
+  font-size: 20px;
+}
+#nine .box_6 {
+  margin-top: 10px;
+  display: flex;
+  padding: 10px 0;
+}
+#nine .box_6 i {
+  color: blue;
+  margin: 10px;
+}
+#nine button {
+  border: none;
+  border-radius: 3px;
+  margin-top: 5px;
+}
+#nine button .btnend1 {
+  padding: 7px 20px;
+  display: flex;
+  border-radius: 3px;
+  background-color: white;
+}
+#nine button .btnend1 p {
+  font-weight: 700;
+  margin: 0 4px;
+}
+#nine button .btnend2 {
+  background-color: black;
+  color: white;
+  padding: 7px 20px;
+  display: flex;
+  border-radius: 3px;
+  border: 1px solid white;
+}
+#nine button .btnend2 p {
+  margin: 0 5px;
+}
+#nine .pend {
+  margin-top: 10px;
+}
+
+/*# sourceMappingURL=style.css.map */
